@@ -4,7 +4,9 @@
 // import { TiposBasicos } from "./typeScript/TiposBasicos";
 // import { ContadorHook } from "./components/ContadorHook";
 // import { Login } from "./components/Login";
-import { Usuarios } from "./components/Usuarios";
+// import { Usuarios } from "./components/Usuarios";
+
+import { Formularios } from "./components/Formularios";
 
 const App = () => {
   return (
@@ -12,13 +14,14 @@ const App = () => {
       <h1>Introduccion a TS -React</h1>
       <hr />
       {
-      /* <TiposBasicos />
+        /* <TiposBasicos />
       <ObjetosLiterales />
       <Funciones />
       <Contador />
       <ContadorHook /> */
-      // <Login />
-      <Usuarios />
+        // <Login />
+        // <Usuarios />
+        <Formularios />
       }
     </div>
   );
